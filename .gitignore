@@ -17,7 +17,12 @@ env/
 
 # Ignore data files
 data/
-
+*.csv
+*.json
+*.xml
+*.excel
+*.xls
+*.xlsx
 # Ignore compiled files
 *.o
 *.so
