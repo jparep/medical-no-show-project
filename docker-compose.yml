@@ -1,22 +1,37 @@
-version: '3.8' # Specify Docker Compose version
+version: '3.8'
+
 services:
   db:
-    image: postgres:17 # Use the latest stable PostgreSQL version (check compatibility)
+    image: postgres:15 # Use the stable version of PostgreSQL
     container_name: postgres-db
     environment:
-      POSTGRES_USER: ${POSTGRES_USER} # User from environment variable
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # Password from environment variable
-      POSTGRES_DB: ${POSTGRES_DB} # Database name from environment variable
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      - "5432:5432" # Map host port 5432 to container port 5432
+      - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data # Persistent storage for PostgreSQL data
+      - postgres-data:/var/lib/postgresql/data # Persistent storage
+      - ./docker/pg-init-scripts:/docker-entrypoint-initdb.d # Initialization scripts
     networks:
-      - my-proj-network # Custom network for service communication
+      - medical-no-show-network
+
+  pgadmin: # Optional GUI for database management
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - medical-no-show-network
 
 networks:
-  my-proj-network: # Define a custom network for this project
+  medical-no-show-network:
     driver: bridge
 
 volumes:
-  pgdata: # Persistent volume for the PostgreSQL database
+  postgres-data:
