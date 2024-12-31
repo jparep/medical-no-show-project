@@ -3,8 +3,8 @@ version: '3.8'
 services:
   db:
     build:
-      context: .
-      dockerfile: ./docker/Dockerfile
+      context: ..
+      dockerfile: docker/Dockerfile # Ensure this points to the correct Dockerfile path
     container_name: postgres-db
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -13,8 +13,8 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - postgres-data:/var/lib/postgresql/data # Persistent storage for database data
-      - ./pg-init-scripts:/docker-entrypoint-initdb.d # Initialization scripts
+      - postgres-data:/var/lib/postgresql/data
+      - ./pg-init-scripts:/docker-entrypoint-initdb.d
     networks:
       - medical-no-show-network
     healthcheck:
