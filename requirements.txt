@@ -1,0 +1,84 @@
+anaconda-anon-usage @ file:///croot/anaconda-anon-usage_1710965072196/work
+annotated-types==0.7.0
+archspec @ file:///home/conda/feedstock_root/build_artifacts/archspec_1737352602016/work
+asn1crypto==1.5.1
+awscli==1.37.2
+blinker @ file:///home/conda/feedstock_root/build_artifacts/blinker_1731096409132/work
+boltons @ file:///home/conda/feedstock_root/build_artifacts/boltons_1733827268945/work
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1725267488082/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1734380492396/work/certifi
+cffi @ file:///croot/cffi_1726856441404/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1734858813237/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+conda @ file:///home/conda/feedstock_root/build_artifacts/conda_1738241127085/work
+conda-content-trust @ file:///croot/conda-content-trust_1714483159009/work
+conda-libmamba-solver @ file:///home/conda/feedstock_root/build_artifacts/conda-libmamba-solver_1737800978214/work/src
+conda-package-handling @ file:///home/conda/feedstock_root/build_artifacts/conda-package-handling_1736345463896/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1718136078615/work
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography-split_1737764795411/work
+distro @ file:///home/conda/feedstock_root/build_artifacts/distro_1734729835256/work
+docutils==0.16
+filelock==3.16.1
+Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1731556349671/work
+frozendict @ file:///croot/frozendict_1713194832637/work
+gitdb==4.0.12
+GitPython==3.1.43
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1738578511449/work
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1733211830134/work
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1737420181517/work
+itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1733308265247/work
+jaraco.classes==3.4.0
+jaraco.context==6.0.1
+jaraco.functools==4.1.0
+jeepney==0.8.0
+Jinja2==3.1.4
+jsonpatch @ file:///croot/jsonpatch_1714483231291/work
+jsonpointer @ file:///home/conda/feedstock_root/build_artifacts/jsonpointer_1725302935093/work
+keyring==25.6.0
+libmambapy @ file:///home/conda/feedstock_root/build_artifacts/mamba-split_1738686646981/work/libmambapy
+markdown-it-py==3.0.0
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1733219680183/work
+mdurl==0.1.2
+menuinst @ file:///home/conda/feedstock_root/build_artifacts/menuinst_1731146972698/work
+more-itertools==10.6.0
+packaging @ file:///croot/packaging_1720101850331/work
+platformdirs @ file:///work/perseverance-python-buildout/croot/platformdirs_1701732573265/work
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1733222765875/work
+pyasn1==0.6.1
+pycosat @ file:///home/conda/feedstock_root/build_artifacts/pycosat_1732588402431/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pydantic==2.9.2
+pydantic_core==2.23.4
+Pygments==2.19.1
+PyJWT==2.10.1
+pyOpenSSL==24.3.0
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+pytz==2024.2
+PyYAML==6.0.2
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+requirements-parser==0.11.0
+rich==13.9.4
+rsa==4.7.2
+ruamel.yaml @ file:///home/conda/feedstock_root/build_artifacts/ruamel.yaml_1736248036158/work
+ruamel.yaml.clib @ file:///home/conda/feedstock_root/build_artifacts/ruamel.yaml.clib_1728724466132/work
+SecretStorage==3.3.3
+setuptools==75.3.0
+shellingham==1.5.4
+smmap==5.0.2
+snowflake-cli==3.2.2
+snowflake-connector-python==3.12.3
+sortedcontainers==2.4.0
+tomlkit==0.13.2
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1735661334605/work
+truststore @ file:///work/perseverance-python-buildout/croot/truststore_1701735771625/work
+typer==0.12.5
+types-setuptools==75.8.0.20250110
+typing_extensions==4.12.2
+urllib3==2.2.3
+Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1733160440960/work
+wheel==0.45.1
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+zstandard==0.23.0
