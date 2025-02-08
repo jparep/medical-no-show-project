@@ -9,4 +9,4 @@ echo "Running initialization scripts..."
 docker exec -i postgres-db psql -U $POSTGRES_USER -d $POSTGRES_DB -f /docker-entrypoint-initdb.d/schema.sql
 docker exec -i postgres-db psql -U $POSTGRES_USER -d $POSTGRES_DB -f /docker-entrypoint-initdb.d/load-data.sql
 
-echo "Setup complete."
+echo "Setup successfully completed."
